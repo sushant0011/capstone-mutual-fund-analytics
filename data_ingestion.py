@@ -15,7 +15,7 @@ for file_name in provided_files:
     file_path = f"data/raw/{file_name}"
     
     if os.path.exists(file_path):
-        print(f"📄 Analyzing File: {file_name}")
+        print(f" Analyzing File: {file_name}")
         df = pd.read_csv(file_path)
         
         print(f"Shape: {df.shape}")
@@ -27,4 +27,4 @@ for file_name in provided_files:
         
         print("\n" + "="*50 + "\n")
     else:
-        print(f"⚠️ Warning: {file_name} missing in data/raw/ folder!")
+        print(f" Warning: {file_name} missing in data/raw/ folder!")

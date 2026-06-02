@@ -26,10 +26,10 @@ try:
     missing_codes = master_codes - history_codes
 
     if len(missing_codes) == 0:
-        print("\n✅ Success: Every AMFI code from fund_master exists in nav_history!")
+        print("\n Success: Every AMFI code from fund_master exists in nav_history!")
     else:
-        print(f"\n⚠️ Alert: {len(missing_codes)} codes are missing in nav_history!")
+        print(f"\n Alert: {len(missing_codes)} codes are missing in nav_history!")
         print(f"Missing Codes Sample: {list(missing_codes)[:5]}")
         
 except KeyError:
-    print("\n❌ Error: Column name match nahi hua. Ek baar dono files ke columns upar terminal mein check karo aur col_name update karo.")
+    print("\n Error: Column name match nahi hua. Ek baar dono files ke columns upar terminal mein check karo aur col_name update karo.")
