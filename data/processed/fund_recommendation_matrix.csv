@@ -1,0 +1,10 @@
+Risk Profile,Rank,Fund Name,Annual Return %,Volatility %,Sharpe Ratio,CVaR %
+Low,1,SBI Bluechip Fund - Direct Plan - Growth,19.79%,13.94%,1.42,-1.73%
+Low,2,Kotak Bluechip Fund - Regular - Growth,13.15%,13.46%,0.98,-1.64%
+Low,3,SBI Small Cap Fund - Regular Plan - Growth,30.27%,25.14%,1.20,-3.06%
+Moderate,1,Mirae Asset Large Cap Fund - Regular - Growth,27.06%,14.19%,1.91,-1.76%
+Moderate,2,ICICI Pru Liquid Fund - Regular - Growth,6.74%,0.49%,13.66,-0.04%
+Moderate,3,ICICI Pru Bluechip Fund - Regular - Growth,17.58%,13.88%,1.27,-1.75%
+High,1,SBI Bluechip Fund - Direct Plan - Growth,19.79%,13.94%,1.42,-1.73%
+High,2,Mirae Asset Large Cap Fund - Regular - Growth,27.06%,14.19%,1.91,-1.76%
+High,3,ICICI Pru Liquid Fund - Regular - Growth,6.74%,0.49%,13.66,-0.04%
